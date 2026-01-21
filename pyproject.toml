@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ga2o3"
+version = "0.1.0"
+description = "Parsers and plotting utilities for Ga2O3 CRYSTAL/CASTEP output files"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "ga2o3 contributors"}]
+dependencies = [
+  "numpy>=1.21",
+  "pandas>=1.5",
+  "matplotlib>=3.6",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+  "pytest-cov>=4.0",
+]
+
+[project.scripts]
+ga2o3 = "ga2o3.cli:main"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["ga2o3"]

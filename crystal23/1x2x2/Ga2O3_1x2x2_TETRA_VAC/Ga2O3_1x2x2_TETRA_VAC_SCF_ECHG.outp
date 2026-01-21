@@ -1,0 +1,233 @@
+date viernes, 12 de septiembre de 2025, 11:07:15 CEST
+master hostname FINE.local
+master system Darwin FINE.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:25 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6020 arm64
+user fine1
+output data in /Users/fine1/Ga2O3Paper/Ga2O3_1x2x2_TETRA_VAC/Ga2O3_1x2x2_TETRA_VAC_SCF_ECHG.outp
+mpirun executable in /usr/local/openmpi-4.1.6/bin
+file machines.LINUX in /Users/fine1/CRYSTAL23/utils23
+list of nodes in /Users/fine1/CRYSTAL23/utils23/nodes.par
+creating temporary directories /Users/fine1/tmp/tmp_p1537_fine1 on each node
+copying input file on each node
+scf guess from /Users/fine1/Ga2O3Paper/Ga2O3_1x2x2_TETRA_VAC/Ga2O3_1x2x2_TETRA_VAC_SCF.f9
+copying Pproperties executable on each node
+properties input data in /Users/fine1/Ga2O3Paper/Ga2O3_1x2x2_TETRA_VAC/Ga2O3_1x2x2_TETRA_VAC_SCF_ECHG.d3
+ECHG
+0
+1500
+COORDINA
+6.107 1.525 -4.495
+2.839 1.525 5.021
+-6.107 1.525 4.495
+MARGINS
+1.5 1.5 1.5 1.5
+END
+END
+copying input file on each node
+wave function formatted data from /Users/fine1/Ga2O3Paper/Ga2O3_1x2x2_TETRA_VAC/Ga2O3_1x2x2_TETRA_VAC_SCF.f98
+ PROCESS            0  OF           24  WORKING
+ PROCESS           11  OF           24  WORKING
+ PROCESS            6  OF           24  WORKING
+ PROCESS            2  OF           24  WORKING
+ PROCESS           13  OF           24  WORKING
+ PROCESS            4  OF           24  WORKING
+ PROCESS            8  OF           24  WORKING
+ PROCESS           14  OF           24  WORKING
+ PROCESS           17  OF           24  WORKING
+ PROCESS           18  OF           24  WORKING
+ PROCESS           19  OF           24  WORKING
+ PROCESS           20  OF           24  WORKING
+ PROCESS           21  OF           24  WORKING
+ PROCESS           22  OF           24  WORKING
+ PROCESS            1  OF           24  WORKING
+ PROCESS            5  OF           24  WORKING
+ PROCESS            7  OF           24  WORKING
+ PROCESS            9  OF           24  WORKING
+ PROCESS           15  OF           24  WORKING
+ PROCESS           16  OF           24  WORKING
+ PROCESS           10  OF           24  WORKING
+ PROCESS           23  OF           24  WORKING
+ PROCESS            3  OF           24  WORKING
+ PROCESS           12  OF           24  WORKING
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL23                                     *
+ *                      public : 1.0.1 - October 2022                          *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(6), I.J. BUSH(7), Ph. D'ARCO(8),                 *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11), B.G. SEARLE(2), J.K. DESMARAIS(1)         *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18), L.E. DAGA(1), L. DONA'(1), A. COSSARD(1)                *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) SCIENTIFIC COMPUTING DEPARTMENT - STFC DARESBURY (UK)                   *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) SCIENTIFIC COMPUTING DEPARTMENT - STFC RAL (UK)                         *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) UNIVERSITY OF VERMONT - BURLINGTON (USA)                                *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 12 09 2025 TIME 11:07:18.3
+ INFORMATION **** SET_MPP **** PCRYSTAL CALCULATION
+
+ *******************************************************************************
+ GA2O3 Tetrahedral vacancy SCF                                                   
+ CRYSTAL - PROPERTIES - TYPE OF CALCULATION :  UNRESTRICTED OPEN SHELL
+ *******************************************************************************
+ SPIN POLARIZED SYSTEM: SUMMED SPIN DENSITY    3.00000000
+
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(HSE06 SR/GGA)[PERDEW-BURKE-ERNZERHOF]
+
+ RANGE-SEPARATED HYBRID FUNCTIONAL 
+ OMEGA (SHORT-RANGE)[LONG-RANGE]:(    0.1100)[    0.0000]
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    32.0000
+
+ SPIN POLARIZED DFT SELECTED
+
+ DIRECT LATTICE VECTOR COMPONENTS (ANGSTROM)
+        12.27671    0.00000    0.00000
+         0.00000    6.12161    0.00000
+        -2.80124    0.00000   11.22875
+
+ LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
+       A          B          C         ALPHA      BETA     GAMMA        VOLUME
+   12.27671    6.12161   11.57289     90.0000  104.0077   90.0000     843.87751
+ *******************************************************************************
+ N. OF ATOMS PER CELL        80 COULOMB OVERLAP TOL          (T1) 10**   -7
+ NUMBER OF SHELLS           864 COULOMB PENETRATION TOL      (T2) 10**   -7
+ NUMBER OF AO              2176 EXCHANGE OVERLAP TOL         (T3) 10**   -7
+ N. OF ELECTRONS PER CELL  1345 EXCHANGE PSEUDO OVP (F(G))   (T4) 10**   -7
+ CORE ELECTRONS PER CELL    964 EXCHANGE PSEUDO OVP (P(G))   (T5) 10**  -14
+ N. OF SYMMETRY OPERATORS     1 POLE ORDER IN MONO ZONE                   4
+ *******************************************************************************
+   ATOM N.AT.  SHELL    X(A)      Y(A)      Z(A)      EXAD       N.ELECT.
+ *******************************************************************************
+    1   31 GA   15    -4.736     1.549    -1.148   2.831E-01      29.157
+    2   31 GA   15     6.108     1.533     4.452   2.831E-01      29.192
+    3    0 XX   15    -4.724    -1.516    -1.148   2.831E-01      -0.072
+    4   31 GA   15    -6.069    -1.530     4.430   2.831E-01      29.185
+    5   31 GA   15     1.438     0.004    -1.128   2.831E-01      29.197
+    6   31 GA   15    -0.043    -0.071     4.467   2.831E-01      29.212
+    7   31 GA   15     1.442    -3.054    -1.137   2.831E-01      29.200
+    8   31 GA   15    -0.029    -3.057     4.476   2.831E-01      29.200
+    9   31 GA   15     4.702     1.531     1.123   2.831E-01      29.185
+   10   31 GA   15     3.346     1.528     6.759   2.831E-01      29.204
+   11   31 GA   15     4.701    -1.507     1.146   2.831E-01      29.186
+   12   31 GA   15     3.373    -1.533     6.754   2.831E-01      29.175
+   13   31 GA   15    -1.404     0.026     1.153   2.831E-01      29.208
+   14   31 GA   15     0.040    -0.005    -4.375   2.831E-01      29.187
+   15   31 GA   15    -1.307    -3.055     1.095   2.831E-01      29.219
+   16   31 GA   15     0.037     3.042    -4.388   2.831E-01      29.184
+   17   31 GA   15    -4.643    -0.015     1.794   2.831E-01      29.250
+   18   31 GA   15    -3.216    -0.010    -3.848   2.831E-01      29.236
+   19   31 GA   15    -4.734    -3.006     1.781   2.831E-01      29.224
+   20   31 GA   15    -3.214    -3.051    -3.845   2.831E-01      29.229
+   21   31 GA   15     1.525     1.533     1.800   2.831E-01      29.223
+   22   31 GA   15     2.951     1.519    -3.846   2.831E-01      29.223
+   23   31 GA   15     1.504    -1.519     1.805   2.831E-01      29.232
+   24   31 GA   15     2.952    -1.539    -3.864   2.831E-01      29.241
+   25   31 GA   15     4.651    -0.000    -1.774   2.831E-01      29.224
+   26   31 GA   15     3.235    -0.007     3.862   2.831E-01      29.223
+   27   31 GA   15     4.649    -3.051    -1.770   2.831E-01      29.224
+   28   31 GA   15     3.236    -3.057     3.859   2.831E-01      29.219
+   29   31 GA   15    -1.487     1.528    -1.759   2.831E-01      29.241
+   30   31 GA   15    -2.888     1.460     3.773   2.831E-01      29.235
+   31   31 GA   15    -1.490    -1.522    -1.753   2.831E-01      29.244
+   32   31 GA   15    -3.009    -1.609     3.737   2.831E-01      29.412
+   33    8 O     8    -5.708     0.009    -1.465   4.535E-01       8.666
+   34    8 O     8     5.151    -0.013     4.209   4.535E-01       9.136
+   35    8 O     8    -5.713    -3.043    -1.473   4.535E-01       8.890
+   36    8 O     8     5.148    -3.049     4.207   4.535E-01       9.133
+   37    8 O     8     0.439    -1.528    -1.445   4.535E-01       9.137
+   38    8 O     8    -1.028    -1.575     4.231   4.535E-01       9.134
+   39    8 O     8     0.442     1.534    -1.435   4.535E-01       9.134
+   40    8 O     8    -1.029     1.499     4.236   4.535E-01       9.134
+   41    8 O     8     5.696     0.018     1.409   4.535E-01       9.132
+   42    8 O     8    -5.119     0.009    -4.187   4.535E-01       9.140
+   43    8 O     8     5.654    -3.049     1.404   4.535E-01       9.138
+   44    8 O     8    -5.118     3.051    -4.188   4.535E-01       9.118
+   45    8 O     8    -0.369     1.536     1.434   4.535E-01       9.132
+   46    8 O     8     1.022     1.521    -4.142   4.535E-01       9.136
+   47    8 O     8    -0.420    -1.504     1.453   4.535E-01       9.146
+   48    8 O     8     1.000    -1.541    -4.206   4.535E-01       9.144
+   49    8 O     8    -4.238    -1.521     0.597   4.535E-01       8.663
+   50    8 O     8    -2.848    -1.535    -5.001   4.535E-01       9.126
+   51    8 O     8    -4.361     1.575     0.625   4.535E-01       9.129
+   52    8 O     8    -2.770     1.529    -5.023   4.535E-01       9.126
+   53    8 O     8     1.891    -0.001     0.635   4.535E-01       9.166
+   54    8 O     8     3.276    -0.007    -4.994   4.535E-01       9.152
+   55    8 O     8     1.868    -3.046     0.635   4.535E-01       9.162
+   56    8 O     8     3.286     3.036    -4.987   4.535E-01       9.156
+   57    8 O     8     4.250     1.536    -0.644   4.535E-01       9.164
+   58    8 O     8     2.886     1.530     5.002   4.535E-01       9.155
+   59    8 O     8     4.263    -1.519    -0.631   4.535E-01       9.161
+   60    8 O     8     2.862    -1.532     5.009   4.535E-01       9.168
+   61    8 O     8    -1.848     0.009    -0.617   4.535E-01       9.127
+   62    8 O     8    -0.692     0.150    -6.094   4.535E-01       9.092
+   63    8 O     8    -1.848    -3.059    -0.630   4.535E-01       9.131
+   64    8 O     8    -3.433     2.887     5.097   4.535E-01       9.095
+   65    8 O     8    -3.380     1.533    -2.468   4.535E-01       9.271
+   66    8 O     8    -4.818     1.556     3.174   4.535E-01       9.283
+   67    8 O     8    -3.375    -1.527    -2.458   4.535E-01       8.863
+   68    8 O     8    -4.891    -1.531     3.035   4.535E-01       9.338
+   69    8 O     8     2.754    -0.009    -2.464   4.535E-01       9.275
+   70    8 O     8     1.332     0.003     3.173   4.535E-01       9.282
+   71    8 O     8     2.759    -3.053    -2.464   4.535E-01       9.279
+   72    8 O     8     1.337     3.050     3.171   4.535E-01       9.284
+   73    8 O     8     3.397     1.530     2.469   4.535E-01       9.286
+   74    8 O     8     4.822     1.528    -3.157   4.535E-01       9.289
+   75    8 O     8     3.386    -1.524     2.477   4.535E-01       9.291
+   76    8 O     8     4.830    -1.530    -3.168   4.535E-01       9.273
+   77    8 O     8    -2.773     0.224     2.347   4.535E-01       9.269
+   78    8 O     8    -1.328     0.000    -3.133   4.535E-01       9.291
+   79    8 O     8    -2.742     2.876     2.333   4.535E-01       9.213
+   80    8 O     8    -1.325    -3.061    -3.139   4.535E-01       9.291
+ *******************************************************************************
+ DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
+ TOTAL ENERGY -6.3275686960099E+04  CONVERGENCE ON ENER        1.064E-05
+ KIN. ENERGY   6.3195628349003E+04  VIR. COEFF.           1.01465466E+00
+ N. OF SCF CYCLES               57  FERMI ENERGY              -0.158E+00
+ WEIGHT OF F(I) IN F(I+1)      30
+ SHRINK. FACT.(MONKH.)     6  6  6  SHRINKING FACTOR(GILAT NET)        6
+ NUMBER OF K POINTS IN THE IBZ 112  CELL VOLUME (A.U.)       5694.767801
+ *******************************************************************************
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    11    23    12
+ NO.OF VECTORS CREATED 6999 STARS 1831 RMAX   212.21933 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.40 TCPU        0.21
+
+ MATRIX SIZE: P(G) 5499640, F(G)  950135, P(G) IRR 2756668, F(G) IRR  953287
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS  59
+
+
+ CAPPA:IS1  6;IS2  6;IS3  6; K PTS MONK NET 112; SYMMOPS:K SPACE   2;G SPACE   1
+
+mpirun: Forwarding signal 18 to job

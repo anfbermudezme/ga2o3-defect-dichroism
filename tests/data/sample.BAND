@@ -1,0 +1,7 @@
+@ XAXIS TICK 1, 0.0
+@ XAXIS TICK 2, 0.5
+@ XAXIS TICK 3, 1.0
+# k  E1  E2  (Hartree)
+0.0  -0.010  0.005
+0.5  -0.005  0.010
+1.0   0.000  0.015

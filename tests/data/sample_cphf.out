@@ -1,0 +1,12 @@
+Some header lines
+   FR.(eV)    COMP.    A    B    EPSILON(RE)   EPSILON(IM)
+   2.000  XX  0.0  0.0   3.50   0.10
+   2.000  YY  0.0  0.0   3.60   0.20
+   2.000  ZZ  0.0  0.0   3.70   0.30
+
+Other text
+   FR.(eV)    COMP.    A    B    EPSILON(RE)   EPSILON(IM)
+   3.000  XX  0.0  0.0   4.00   0.05
+   3.000  YY  0.0  0.0   4.10   0.06
+   3.000  ZZ  0.0  0.0   4.20   0.07
+
